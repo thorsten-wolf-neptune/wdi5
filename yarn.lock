@@ -4,10 +4,10 @@
 
 "@thorsten-wolf-neptune/wdi5-cordova@file:C:\\Users\\Thorsten\\Documents\\GitHub\\wdi5\\wdi5":
   "resolved" "file:wdi5"
-  "version" "0.8.2"
+  "version" "0.8.3"
   dependencies:
     "@thorsten-wolf-neptune/wdio-ui5-service-cordova" "^0.8.2"
 
-"@thorsten-wolf-neptune/wdio-ui5-service-cordova@^0.8.2", "@thorsten-wolf-neptune/wdio-ui5-service-cordova@file:C:\\Users\\Thorsten\\Documents\\GitHub\\wdi5\\wdio-ui5-service":
+"@thorsten-wolf-neptune/wdio-ui5-service-cordova@^0.8.3", "@thorsten-wolf-neptune/wdio-ui5-service-cordova@file:C:\\Users\\Thorsten\\Documents\\GitHub\\wdi5\\wdio-ui5-service":
   "resolved" "file:wdio-ui5-service"
-  "version" "0.8.2"
+  "version" "0.8.3"
