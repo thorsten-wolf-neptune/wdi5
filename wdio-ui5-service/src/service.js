@@ -33,11 +33,11 @@ module.exports = class Service {
                 browser.url('#');
             } else {
                 // just for error logging
-                Logger.error('not opening any url, wdi5 config contains errors');
+                Logger.warn('not opening any url, wdi5 config contains errors');
             }
         } else {
             // just for error logging
-            Logger.error('not opening any url, no url was supplied in wdi5 config');
+            Logger.warn('not opening any url, no url was supplied in wdi5 config');
         }
 
         Logger.info('wdio-ui5-service before hook');

@@ -1,4 +1,4 @@
-const logger = require('wdio-ui5-service/src/lib/Logger');
+const logger = require('@thorsten-wolf-neptune/wdio-ui5-service-cordova/src/lib/Logger');
 
 /**
  * plugin mock factory

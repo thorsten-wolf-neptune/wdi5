@@ -1,5 +1,5 @@
-const SevereServiceError = require('webdriverio');
-const wdi5 = require('wdi5');
+//const SevereServiceError = require('webdriverio');
+const wdi5 = require('@thorsten-wolf-neptune/wdi5-cordova');
 
 // the one instance of wdi5 :)
 let _wdi5 = null;

@@ -1,5 +1,5 @@
 {
-  "name": "wdio-ui5-service",
+  "name": "@thorsten-wolf-neptune/wdio-ui5-service-cordova",
   "description": "WebdriverIO plugin for testing UI5 browser-based apps",
   "author": "Dominik Feininger <dominik.feininger@js-soft.com> (https://www.js-soft.com/)",
   "contributors": [
@@ -9,17 +9,19 @@
   "version": "0.8.2",
   "homepage": "https://github.com/js-soft/wdi5/blob/main/wdio-ui5-service/README.md",
   "main": "./src/index.js",
+  "types": "./src/index.d.ts",
   "screenshotPath": "./../test/report/screenshots",
   "keywords": [
     "webdriver",
     "wdio",
     "wdio-service",
     "ui5",
-    "openui5"
+    "openui5",
+    "cordova"
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:js-soft/wdi5.git"
+    "url": "git+ssh://git@github.com:thorsten-wolf-neptune/wdi5.git"
   },
   "engines": {
     "node": ">=14"

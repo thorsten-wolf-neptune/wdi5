@@ -1,8 +1,8 @@
 const BrowserUtils = require('./lib/BrowserUtils');
 const NativeUtils = require('./lib/NativeUtils');
 const cordovaMockPluginFactory = require('./lib/cordova-plugin-mocks/factory');
-const logger = require('wdio-ui5-service/src/lib/Logger');
-const wdioUI5Service = require('wdio-ui5-service').default;
+const logger = require('@thorsten-wolf-neptune/wdio-ui5-service-cordova/src/lib/Logger');
+const wdioUI5Service = require('@thorsten-wolf-neptune/wdio-ui5-service-cordova').default;
 let _instance = null;
 
 class _ {
