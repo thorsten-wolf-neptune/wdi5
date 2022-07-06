@@ -22,8 +22,8 @@ class WDI5Service {
                 // call once to init
                 // assume the start context is the webcontext -> "js.appiumTest"
                 // first call need to be with the webcontext
-                wdi5(driver, driver.getContext());
-                wdi5().getLogger().log('before hook for native');
+                _wdi5 = await wdi5(driver, driver.getContext());
+                _wdi5.getLogger().log('before hook for native');
                 break;
             default:
                 // assume browser
