@@ -2,15 +2,15 @@
 # yarn lockfile v1
 
 
-"@thorsten-wolf-neptune/wdi5-cordova@file:C:\\Users\\Thorsten\\Documents\\GitHub\\wdi5\\wdi5":
+"@thorsten-wolf-neptune/wdi5-cordova@file:C:\\Github\\wdi5\\wdi5":
   "resolved" "file:wdi5"
-  "version" "0.8.5"
+  "version" "0.8.12"
   dependencies:
-    "@thorsten-wolf-neptune/wdio-ui5-service-cordova" "^0.8.4"
+    "@thorsten-wolf-neptune/wdio-ui5-service-cordova" "^0.8.5"
 
-"@thorsten-wolf-neptune/wdio-ui5-service-cordova@^0.8.5", "@thorsten-wolf-neptune/wdio-ui5-service-cordova@file:C:\\Users\\Thorsten\\Documents\\GitHub\\wdi5\\wdio-ui5-service":
+"@thorsten-wolf-neptune/wdio-ui5-service-cordova@^0.8.13", "@thorsten-wolf-neptune/wdio-ui5-service-cordova@file:C:\\Github\\wdi5\\wdio-ui5-service":
   "resolved" "file:wdio-ui5-service"
-  "version" "0.8.5"
+  "version" "0.8.13"
   dependencies:
     "@types/openui5" "^1.103.0"
 

@@ -1,6 +1,6 @@
 {
   "name": "@thorsten-wolf-neptune/wdi5-cordova",
-  "version": "0.8.12",
+  "version": "0.8.13",
   "description": "cross-platform test framework for hybrid UI5 apps. wdi5 = Webdriver.IO + UI5 Test API + appium",
   "main": "index.js",
   "repository": {
@@ -28,6 +28,6 @@
   ],
   "license": "(DERIVED BEER-WARE OR Apache-2.0)",
   "dependencies": {
-    "@thorsten-wolf-neptune/wdio-ui5-service-cordova": "^0.8.12"
+    "@thorsten-wolf-neptune/wdio-ui5-service-cordova": "^0.8.13"
   }
 }
