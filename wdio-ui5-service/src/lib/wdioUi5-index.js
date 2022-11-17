@@ -124,32 +124,32 @@ async function injectUI5() {
                             const isRootProperty =
                                 oSelector.bindingPath.propertyPath &&
                                 oSelector.bindingPath.propertyPath.charAt(0) === '/';
-                            if (hasNamedModel && isRootProperty && parseFloat(sap.ui.version) < 1.81) {
-                                // attach the double leading /
-                                // for UI5 < 1.81
-                                oSelector.bindingPath.propertyPath = `/${oSelector.bindingPath.propertyPath}`;
-                            }
-                            if (oldAPIVersion > parseFloat(sap.ui.version)) {
-                                // for version < 1.60 create the matcher
-                                oSelector.bindingPath = new BindingPath(oSelector.bindingPath);
-                            }
+                            // if (hasNamedModel && isRootProperty && parseFloat(sap.ui.version) < 1.81) {
+                            //     // attach the double leading /
+                            //     // for UI5 < 1.81
+                            //     oSelector.bindingPath.propertyPath = `/${oSelector.bindingPath.propertyPath}`;
+                            // }
+                            // if (oldAPIVersion > parseFloat(sap.ui.version)) {
+                            //     // for version < 1.60 create the matcher
+                            //     oSelector.bindingPath = new BindingPath(oSelector.bindingPath);
+                            // }
                         }
 
-                        if (oldAPIVersion > parseFloat(sap.ui.version)) {
-                            // for version < 1.60 create the matcher
-                            if (oSelector.properties) {
-                                oSelector.properties = new Properties(oSelector.properties);
-                            }
-                            if (oSelector.i18NText) {
-                                oSelector.i18NText = new I18NText(oSelector.i18NText);
-                            }
-                            if (oSelector.labelFor) {
-                                oSelector.labelFor = new LabelFor(oSelector.labelFor);
-                            }
-                            if (oSelector.ancestor) {
-                                oSelector.ancestor = new Ancestor(oSelector.ancestor);
-                            }
-                        }
+                        // if (oldAPIVersion > parseFloat(sap.ui.version)) {
+                        //     // for version < 1.60 create the matcher
+                        //     if (oSelector.properties) {
+                        //         oSelector.properties = new Properties(oSelector.properties);
+                        //     }
+                        //     if (oSelector.i18NText) {
+                        //         oSelector.i18NText = new I18NText(oSelector.i18NText);
+                        //     }
+                        //     if (oSelector.labelFor) {
+                        //         oSelector.labelFor = new LabelFor(oSelector.labelFor);
+                        //     }
+                        //     if (oSelector.ancestor) {
+                        //         oSelector.ancestor = new Ancestor(oSelector.ancestor);
+                        //     }
+                        // }
 
                         return oSelector;
                     };
